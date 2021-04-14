@@ -2,14 +2,14 @@
 
 ## High Level Design 
 ### Architecture Design :
-![Architecture](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/2_Design/hld_1.png)
+![Architecture](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/2_Design/arch.png)
 
 ### Usecase Diagram :
-![UsecaseDiagram](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/2_Design/Usecasehdl.jpg)
+![UsecaseDiagram](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/2_Design/usecase.png)
 
 ## Low Level Design 
 
 --- TBD Structural and Behavioural Diagram
-![LevelZeroDFD](Link to Pic)
+![LevelZeroDFD](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/2_Design/DFD0.png)
 ### State Diagram :
-![LevelOneDFD](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/2_Design/state%20diagram.png)
+![LevelOneDFD](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/2_Design/DFD1.png)
