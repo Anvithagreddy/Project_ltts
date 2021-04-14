@@ -14,12 +14,12 @@
 
 ## Low Level Design 
 
---- TBD Structural and Behavioural Diagram
+### Level Zero DFD :
 
 
 ![LevelZeroDFD](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/2_Design/DFD0.png)
 
-### State Diagram :
+### Level One DFD :
 
 
 ![LevelOneDFD](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/2_Design/DFD1.png)
