@@ -33,7 +33,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 * Few systems already exists with which our system will interact
     * Education institutions
     * Analytics System
-![Description](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/system.png)
+![Description](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/1_Requirements/system.png)
 ### Explanation:
 * Library Management System have few inbuilt features like:
     * Login to system
