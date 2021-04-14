@@ -44,7 +44,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
     * Count of book in each Catagory 
 
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
+![SWOT Analysis](https://github.com/Anvithagreddy/Project_ltts/blob/master/Mini_Project/1_Requirements/swot.jpeg)
 
 # 4W&#39;s and 1&#39;H
 
