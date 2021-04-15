@@ -37,8 +37,11 @@ static int count=0;
 /**
  * @brief 
  * 
+ * @param pin 
+ * @return int 
  */
-void init();
+int init(int pin);
+
 /**
  * @brief 
  * 

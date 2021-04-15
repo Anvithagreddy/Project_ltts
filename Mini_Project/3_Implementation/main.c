@@ -74,7 +74,18 @@ void menu()
 //------------------------------------------------------------------------------------------------------------------------------------------------------
 
 int main() {
-	init();
+	int Pin,pinflag;
+    printf("\n\n\nWELCOME TO LIBRARY MANAGEMENT SYSTEM\n");
+    printf("------------------------------------------------");
+	printf("\n\nPIN : ");
+	scanf("%d",&Pin);
+	pinflag = init(Pin);
+	if(pinflag == 0){
+        printf("\nTRY AGAIN LATER");
+        exit(0);
+    } else {
+        printf("\nSUCCESSFUL");
+    }
 	menu();	
 	return 0;
 }
