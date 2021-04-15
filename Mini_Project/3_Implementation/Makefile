@@ -4,9 +4,18 @@
 #<TAB>Command
 
 PROJECT_NAME = all.exe
-SRC = init.c add.c view.c search.c update.c bookCount.c main.c
+SRC = src\init.c\
+src\add.c\
+src\view.c\
+src\search.c\
+src\update.c\
+src\bookCount.c\
+main.c
+
+INC = -Iinc
+
 $(PROJECT_NAME): $(SRC)
-	gcc $(SRC) -o all.exe
+	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
 	
 run: $(PROJECT_NAME)
 	$(PROJECT_NAME)
