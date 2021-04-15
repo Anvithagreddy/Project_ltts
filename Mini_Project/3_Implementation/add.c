@@ -71,7 +71,7 @@ void viewBooks(){
 					
 				printf("\n\t\t\t author name = %s",
 					book[i].authorName);
-					
+		c			
 				printf("\n\t\t\t catagory = %s",
 					book[i].catagory);
 
