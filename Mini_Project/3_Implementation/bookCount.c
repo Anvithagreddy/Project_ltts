@@ -1,7 +1,7 @@
 #include "function.h"
 
 
-int noOfBooksByCatagory(char cat_ty[]){
+int noOfBooksByCatagory(char cat_ty[],int count){
 	int catagoryBookCount=0;
 	for (int i = 0; i < count; i++) {
 

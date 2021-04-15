@@ -1,41 +1,13 @@
 
 #include "function.h"
 
-//------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-//-------------------------------------------------------------------------------------------------------------------------------------------------------
-void init() {
-	int pin, flag=0, noOfAttempts=3;
-	printf("\n\nWELCOME TO LIBRARY SYSYTEM\n\n\n\n"); 
-	while(flag==0 & noOfAttempts!=0){
-		printf("PIN:");
-		scanf("%d",&pin);
-		
-		if(pin == 3412)
-		{
-			printf("\n-----  SUCCESSFUL  -----\n\n");
-			flag=1;
-		}
-		else{
-			noOfAttempts--;
-			if(noOfAttempts == 0){
-				flag = 1;
-				printf("SORRY,TRY AGAIN LATER..");
-				exit(0);
-			}
-			printf("TRY AGAIN...");
-		}
-		printf("\n");
-	}
-}
-
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 void menu()
 {
     int choice = 0,catBookCnt,catchoice;
 	char cat_ty[30];
+	int count1=0;
     do
     {
         printf("\n\n\n\n-------  MAIN MENU  --------");
@@ -50,16 +22,16 @@ void menu()
         switch(choice)
         {
         case 1:
-            addBook();
+            count1=addBook();
             break;
         case 2:
-            searchBooks();
+            searchBooks(count1);
             break;
         case 3:
-            viewBooks();
+            viewBooks(count1);
             break;
         case 4:
-            updateBook();
+            updateBook(count1);
             break;
         case 5:
 		    printf("\n\n\t\t\tSELECT CATAGORY :");
@@ -85,7 +57,7 @@ void menu()
 				default:printf("Invalid choice");
 			}
 			//scanf("%s",cat_ty);
-            catBookCnt=noOfBooksByCatagory(cat_ty);
+            catBookCnt=noOfBooksByCatagory(cat_ty,count1);
 			printf("NUMBER OF BOOKS: %d",catBookCnt);
             break;
         case 0:

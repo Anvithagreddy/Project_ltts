@@ -1,6 +1,6 @@
 #include "function.h"
 
-void addBook()
+int addBook()
 {
     int chooseCatg;
     printf("ADD NEW BOOKS");
@@ -37,6 +37,7 @@ void addBook()
     printf("\n\t\t\tEnter price = ");
 	scanf("%f", &book[count].price);
 	count++;
+	return count;
 	//printf("%d",count);
 }
 

@@ -4,7 +4,7 @@
 #<TAB>Command
 
 PROJECT_NAME = all.exe
-SRC = main.c add.c search.c view.c update.c bookCount.c
+SRC = init.c add.c view.c search.c update.c bookCount.c main.c
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) -o all.exe
 	

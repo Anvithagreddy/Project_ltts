@@ -22,9 +22,10 @@ struct booksInfo
 struct booksInfo book[10];
 static int count=0;
 
-void addBook();
-void viewBooks();
+void init();
+int addBook();
 void searchBooks();
+void viewBooks();
 void updateBook();
-int noOfBooksByCatagory(char cat_ty[]);
+int noOfBooksByCatagory(char cat_ty[],int count);
 #endif
