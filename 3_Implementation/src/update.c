@@ -1,5 +1,6 @@
 #include "function.h"
 
+/* edit the book information */
 void updateBook(int count){
 	int bookid,chooseCatg,flag=0;;
 	printf("\n\n\t\t\tENTER BOOK ID :");

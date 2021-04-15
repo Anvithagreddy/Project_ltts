@@ -1,5 +1,6 @@
 #include "function.h"
 
+/* search for the book based on the book name  */
 void searchBooks(int count){
 	char bk_nm[30];
 	int flag=0;

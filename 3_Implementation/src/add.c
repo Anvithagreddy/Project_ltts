@@ -1,5 +1,6 @@
 #include "function.h"
 
+/* Add book information */
 int addBook()
 {
     int chooseCatg;

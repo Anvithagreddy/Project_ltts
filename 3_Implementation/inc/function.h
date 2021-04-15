@@ -1,7 +1,7 @@
 /**
  * @file function.h
- * @author your name (you@domain.com)
- * @brief 
+ * @author Anvitha Reddy
+ * @brief Library system with its operations
  * @version 0.1
  * @date 2021-04-15
  * 
@@ -18,8 +18,9 @@
 #define MAX_BOOK_NAME   50
 #define MAX_AUTHOR_NAME 50
 #define MAX_CATAGORY_NAME 50
+
 /**
- * @brief 
+ * @brief structure for book information
  * 
  */
 struct booksInfo
@@ -34,8 +35,9 @@ struct booksInfo
 
 struct booksInfo book[10];
 static int count=0;
+
 /**
- * @brief 
+ * @brief take pin as input and returns the result
  * 
  * @param pin 
  * @return int 
@@ -43,32 +45,38 @@ static int count=0;
 int init(int pin);
 
 /**
- * @brief 
+ * @brief to add book info and return number of books
  * 
  * @return int 
  */
 int addBook();
+
 /**
- * @brief 
+ * 
+ * @brief function to search for book based on the book name
  * 
  */
 void searchBooks();
+
 /**
- * @brief 
+ * @brief function to list the books
  * 
  */
 void viewBooks();
+
 /**
- * @brief 
+ * @brief to edit the book information with help of bood Id
  * 
  */
 void updateBook();
+
 /**
- * @brief 
+ * @brief return the number of books in particular category
  * 
  * @param cat_ty 
  * @param count 
  * @return int 
  */
 int noOfBooksByCatagory(char cat_ty[],int count);
-#endif
+
+#endif /* #define _FUNCTION_H__ */
