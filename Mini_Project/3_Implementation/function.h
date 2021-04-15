@@ -9,7 +9,7 @@
 #define MAX_AUTHOR_NAME 50
 #define MAX_CATAGORY_NAME 50
 
-typedef struct booksInformation
+struct booksInfo
 {
     unsigned int books_id; 
     char bookName[MAX_BOOK_NAME];
@@ -17,9 +17,9 @@ typedef struct booksInformation
     char catagory[MAX_CATAGORY_NAME];
     int pages;
 	float price;
-}bookInfo;
+};
 
-bookInfo book[10];
+struct booksInfo book[10];
 static int count=0;
 
 void addBook();
