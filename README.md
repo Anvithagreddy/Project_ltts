@@ -5,7 +5,7 @@
 
 |Build|cppcheck||Valgrind|Codacy|
 |:--:|:--:|:--:|:--:|:--:|
-|![C/C++ CI](https://github.com/stepin654321/MiniProject_Template/workflows/C/C++%20CI/badge.svg)|[![Windows C/C++ CI](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml)|![cppcheck-action](https://github.com/stepin654321/MiniProject_Template/workflows/cppcheck-action/badge.svg)|![Valgrind](https://github.com/stepin654321/MiniProject_Template/workflows/Valgrind/badge.svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3ac7e2a959a24fa4b5d1b9c1c886ff75)](https://www.codacy.com/manual/stepin654321/MiniProject_Template?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stepin654321/MiniProject_Template&amp;utm_campaign=Badge_Grade)|
+|[![Windows C/C++ CI](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml)|![cppcheck-action](https://github.com/stepin654321/MiniProject_Template/workflows/cppcheck-action/badge.svg)|![Valgrind](https://github.com/stepin654321/MiniProject_Template/workflows/Valgrind/badge.svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3ac7e2a959a24fa4b5d1b9c1c886ff75)](https://www.codacy.com/manual/stepin654321/MiniProject_Template?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stepin654321/MiniProject_Template&amp;utm_campaign=Badge_Grade)|
 
 ## Folder Structure
 Folder             | Description
