@@ -39,3 +39,5 @@ all:
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+cppcheck:
+	cppcheck --enable=all $(SRC) main.c
