@@ -3,7 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b20c7c3ec7f4734b42cc0d04dcf3fb2)](https://app.codacy.com/manual/stepin654321/MiniProject_Template?utm_source=github.com&utm_medium=referral&utm_content=stepin654321/MiniProject_Template&utm_campaign=Badge_Grade_Dashboard)
 
 
-|Build|ststic code analysis|cppcheck||Git Inspector|
+|Build|ststic code analysis|cppcheck|Git Inspector||
 |:--:|:--:|:--:|:--:|:--:|
 |[![Windows C/C++ CI](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml)|[![C/C++ CI Static Code Analysis](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp_static_code_analysis.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp_static_code_analysis.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cppcheck.yml)|[![Check - Git Inspector](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/arc-gitinspector.yml)|
 
