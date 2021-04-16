@@ -5,7 +5,7 @@
 
 |Build|ststic code analysis|cppcheck||Git Inspector|
 |:--:|:--:|:--:|:--:|:--:|
-|[![Windows C/C++ CI](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml)|[![C/C++ CI Static Code Analysis](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp_static_code_analysis.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp_static_code_analysis.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cppcheck.yml)|[![Check - Git Inspector](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/arc-gitinspector.yml)|
+|[![Windows C/C++ CI](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp.yml)|[![C/C++ CI Static Code Analysis](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp_static_code_analysis.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cpp_static_code_analysis.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Anvithagreddy/Project_ltts/actions/workflows/c-cppcheck.yml)|
 
 ## Folder Structure
 Folder             | Description

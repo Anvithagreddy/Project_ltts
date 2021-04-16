@@ -11,7 +11,7 @@ void updateBook(int count){
 		if(book[i].books_id==bookid){
 			flag=1;
 			printf("\n\t\t\tBOOK ID%d",book[i].books_id);
-			printf(" AVAILABLE....");
+			printf(" AVAILABLE.....");
 			printf("\n\t\t\tEnter new name:");
 			scanf("%s", book[i].bookName);
 			printf("\n\t\t\tEnter new author:");

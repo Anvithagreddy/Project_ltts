@@ -19,7 +19,7 @@ void test_zero_one(void)
 
 int test_main(void)
 {
-/* Initiate the Unity Test Framework */
+/* Initiate the Unity Test Framework*/
   UNITY_BEGIN();
 
 /* Run Test functions */

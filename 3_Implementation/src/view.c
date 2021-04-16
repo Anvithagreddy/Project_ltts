@@ -6,7 +6,7 @@ void viewBooks(int count){
 	printf("\n\t\t\t--------------------------------\n");
 			for (int i = 0; i < count; i++) {
 
-				printf("\n\t\t\tbook ID = %d",
+				printf("\n\t\t\tbook ID =%d",
 					book[i].books_id);
 
 				printf("\n\t\t\t book name = %s",

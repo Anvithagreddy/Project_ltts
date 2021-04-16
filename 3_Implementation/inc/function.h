@@ -45,7 +45,7 @@ static int count=0;
 int init(int pin);
 
 /**
- * @brief to add book info and return number of books
+ * @brief add book info and return number of books
  * 
  * @return int 
  */
