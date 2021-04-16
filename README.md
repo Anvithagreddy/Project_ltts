@@ -28,9 +28,3 @@ Folder             | Description
 ## Integrated Tools to GitHub
 *  [Codacy](https://www.codacy.com/)
 
-## GitHub Actions
-* Build using Make for CI
-* Unit tests with Cunit
-* Static code analysis using cppcheck
-* Dynamic Code analysis using Valgrind
-
