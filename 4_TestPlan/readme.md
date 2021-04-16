@@ -1,6 +1,6 @@
 # TEST PLAN:
 
-## Table no: High level test plan
+## Table no: test plan
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** | **Pass/Fail** |
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
