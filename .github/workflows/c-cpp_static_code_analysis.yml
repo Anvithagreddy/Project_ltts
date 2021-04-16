@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -17,7 +17,3 @@ jobs:
       run: sudo apt -y install cppcheck
     - name: cpp Check
       run: cppcheck 3_Implementation
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
