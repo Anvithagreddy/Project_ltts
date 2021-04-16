@@ -20,7 +20,7 @@
 #define MAX_CATAGORY_NAME 50
 
 /**
- * @brief structure for book information
+ * @brief structure for a book information
  * 
  */
 struct booksInfo

@@ -4,7 +4,7 @@
 int addBook()
 {
     int chooseCatg;
-    printf("ADD NEW BOOKS");
+    printf("ADD NEW BOOKS ");
     printf("\n\n\t\t\tENTER YOUR DETAILS BELOW:");
     printf("\n\t\t\t---------------------------------------------------------------------------\n");
     printf("\n\t\t\tBook ID NO  = ");

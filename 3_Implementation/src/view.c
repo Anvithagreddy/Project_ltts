@@ -3,7 +3,7 @@
 /* display the list of books */
 void viewBooks(int count){
 	printf("\n\n\t\t\tLIST OF BOOKS");
-	printf("\n\t\t\t----------------------------------\n");
+	printf("\n\t\t\t--------------------------------\n");
 			for (int i = 0; i < count; i++) {
 
 				printf("\n\t\t\tbook ID = %d",
