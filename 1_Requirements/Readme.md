@@ -4,7 +4,6 @@
  * This topic was chosen because as I go to library to issue books that make me curious how the basic operations are performed internally. 
  * Using C Programming for this also helps me to understand the concepts of it.
  
-
 ## Research
 ### Library Management Software System.
 The histoy of libraries began with the first efforts to organize collections of documents. Library which contains collection of material on one or several subjects,made accessible to a defined community for reference or borrowing. A library's collection can include printed materials and other physical resources in many formats. A library, which may vary widely in size, may be organized for use and maintained by a public body such as a government, an institution, or a private individual. Library also provide space for individual to study/read books. 
