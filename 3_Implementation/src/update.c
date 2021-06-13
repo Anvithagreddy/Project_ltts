@@ -12,14 +12,14 @@ void updateBook(int count){
 			flag=1;
 			printf("\n\t\t\tBOOK ID%d",book[i].books_id);
 			printf(" AVAILABLE.....");
-			printf("\n\t\t\tEnter new name:");
+			printf("\n\t\t\tEnter new name:"); // Enter the new book name
 			scanf("%s", book[i].bookName);
-			printf("\n\t\t\tEnter new author:");
+			printf("\n\t\t\tEnter new author:"); // Enter new author name
 			scanf("%s", book[i].authorName);
-			printf("\n\t\t\tEnter new catagory = ");
+			printf("\n\t\t\tEnter new catagory = "); // Enter new catagory
 	        printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t");
 	        scanf("%d",&chooseCatg);
-			switch(chooseCatg){
+			switch(chooseCatg){  // switch to choose category 
 				case 1:strcpy(book[i].catagory,"History");
 		        break;
 		        case 2:strcpy(book[i].catagory,"Arts_Music");
