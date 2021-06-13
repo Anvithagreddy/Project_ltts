@@ -4,7 +4,7 @@
 void viewBooks(int count){
 	printf("\n\n\t\t\tLIST OF BOOKS");
 	printf("\n\t\t\t--------------------------------\n");
-			for (int i = 0; i < count; i++) {
+			for (int i = 0; i < count; i++) { //loop to print book details 
 
 				printf("\n\t\t\tbook ID =%d",
 					book[i].books_id);
