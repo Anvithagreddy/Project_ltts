@@ -10,13 +10,13 @@ int addBook()
     printf("\n\t\t\tBook ID NO  = ");
     scanf("%u",&book[count].books_id);
     printf("\n\t\t\tEnter book name = ");
-	scanf("%s", book[count].bookName);
+	scanf("%s", book[count].bookName); // enter book name
 	printf("\n\t\t\tEnter author name = ");
-	scanf("%s", book[count].authorName);
+	scanf("%s", book[count].authorName); // enter a author name 
 	printf("\n\t\t\tEnter catagory = ");
 	printf("\n\t\t\t1.History\n\t\t\t2.Arts_Music\n\t\t\t3.Biograhies\n\t\t\t4.Bussiness\n\t\t\t5.Comics\n\t\t\t6.Computer_Tech\n\t\t\t");
 	scanf("%d",&chooseCatg);
-	switch(chooseCatg){
+	switch(chooseCatg){ // switch to choose category 
 		case 1:strcpy(book[count].catagory,"History");
 		break;
 		case 2:strcpy(book[count].catagory,"Arts_Music");
